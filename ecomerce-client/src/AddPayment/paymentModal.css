@@ -1,0 +1,86 @@
+/* styles.css */
+.modal {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    width: 40%; /* Half of the page width */
+    max-height: 100vh; /* Fits the page height */
+    padding: 30px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  
+  /* Rest of your CSS styles remain the same */
+  
+  
+  .modal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .modal label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .modal p {
+    margin: 0;
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .modal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* You can add more styles for specific elements as needed */
+  
+  /* Close button style (for Modal component) */
+  .modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .modal-close-button:hover {
+    color: #007bff;
+  }
+  

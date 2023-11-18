@@ -1,0 +1,10 @@
+.close-button{
+    padding: 10px;
+  margin: 5px;
+  background-color: gray;
+  color: #fff;
+  font-style: bold;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}

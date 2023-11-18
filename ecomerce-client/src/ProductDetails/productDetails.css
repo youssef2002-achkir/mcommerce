@@ -1,0 +1,68 @@
+/* ProductDetails.css */
+
+.product-details {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    position: relative;
+    left: 27%;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .product-description {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00a9ff;
+  }
+  
+  .product-image {
+    max-width: 400px;
+    height: 200px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .order-details {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;;
+  }
+
+.product-buttons button {
+  padding: 10px;
+  margin: 5px;
+  background-color: gray;
+  color: #fff;
+  font-style: bold;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:disabled {
+  /* Use the class name to define the disabled button style */
+  /* For example, apply the .disabled-button class to the disabled button */
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
